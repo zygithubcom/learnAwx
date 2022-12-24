@@ -1,0 +1,6 @@
+- name: Hello World Sample
+  hosts: localhost
+  tasks:
+    - name: HelloGit Message
+      debug:
+        msg: "HelloGit World!"
